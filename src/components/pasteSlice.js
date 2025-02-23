@@ -6,7 +6,6 @@ const initialState = {
         ? JSON.parse(localStorage.getItem("pastes")) //as saves in string, and for pushing in new pastes
         : []
 }
-
 export const pasteSlice = createSlice({
     name: 'paste',
     initialState,
