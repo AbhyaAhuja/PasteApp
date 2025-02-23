@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import { useSearchParams, useParams } from 'react-router-dom';
 
-
-
 // pastes/:id--> useParams
 // /?key:value searchParams.get("pasteId");
 
