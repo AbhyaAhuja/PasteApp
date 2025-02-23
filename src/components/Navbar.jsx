@@ -9,6 +9,7 @@ const Navbar = () => {
 
         <NavLink to="/pastes">Pastes</NavLink>
     </div>
+    
   )
 }
 
