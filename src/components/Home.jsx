@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
 import { addToPastes, updateToPastes } from './pasteSlice';
+
 import { useSelector } from 'react-redux';
 // this page is going to be same for both:
 // 1. creation
