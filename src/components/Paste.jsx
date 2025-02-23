@@ -10,6 +10,7 @@ const Paste = () => {
     const pastes = useSelector((state) => state.paste.pastes)
     // state. nameOfSlice.value(initialstate)
 
+    
     const dispatch = useDispatch();
     const [text, setText] = useState('');
     const filteredData = pastes.filter(
